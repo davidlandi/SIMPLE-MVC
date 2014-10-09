@@ -1,0 +1,1 @@
+<p class="p-floorplan">this is floorplan view</p>

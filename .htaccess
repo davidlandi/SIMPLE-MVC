@@ -1,0 +1,7 @@
+ReWriteBase /SIMPLE_MVC/public
+
+Options -Indexes +FollowSymLinks
+
+RewriteEngine on
+RewriteRule  ^$ public/    [L]
+RewriteRule  (.*) public/$1 [L]
